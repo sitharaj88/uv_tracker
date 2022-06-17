@@ -8,10 +8,11 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const uvIndex = 71.0;
+    const uvIndex = 29.0;
     return Scaffold(
       body: SafeArea(
         child: Container(
+          height: double.infinity,
           color: Colors.grey.shade100,
           padding: const EdgeInsets.all(15),
           child: SingleChildScrollView(

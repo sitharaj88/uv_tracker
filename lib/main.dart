@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:uv_tracker/home.dart';
 
 void main() {
-  runApp(UVTrackerApp());
+  runApp(const UVTrackerApp());
 }
 
 class UVTrackerApp extends StatelessWidget {
@@ -11,7 +11,7 @@ class UVTrackerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const GetMaterialApp(
       home: HomeScreen(),
       debugShowCheckedModeBanner: false,
     );
